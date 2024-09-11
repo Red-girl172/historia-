@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html Lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Ajude a Julia a fazer um bolo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.webp" alt="">
+            <p>Ela preciosa misturar todos os ingredientes. Ajudem ela a escolher os recipientes.</p>
+            <button class="btn-proximo" data-proximo="1">um prato</button>
+            <button class="btn-proximo" data-proximo="2">uma bacia</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Vixe, Julia derrubou a metade dos ingredientes. Mas ainda dá pra fazer.</p>
+            <button class="btn-proximo" data-proximo="3">ver o que aconteceu</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Meus parabéns, assim a Julia conseguiu juntar todos os ingredientes.</p>
+            <button class="btn-proximo" data-proximo="3">ver o que aconteceu</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Depois de misturar, Julia precisará colocar na forma. Ajude ela no próximo passo.</p>
+            <button class="btn-proximo" data-proximo="4">coloque o bolo na forma sem untar</button>
+             <button class="btn-proximo" data-proximo="5">unte a forma com manteiga</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>com essa escolha o bolo  da Julia grudou na forma. Tente novamente </p>
+        </div>
+    
+        <div class="passo" id="passo-5">
+            <p>Parabéns voce fez uma boa escolha, o bolo da Julia ficou muito bom.</p>
+            
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
